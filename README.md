@@ -3,6 +3,7 @@ Initial attempt (work in progress) at making debuggable 'distroless' Docker cont
 Includes sample web server and dlv debugger.
 
 docker image build -t go-debug .
+
 docker run -P -it go-debug (note mapped ports)
 
 Inside container:
