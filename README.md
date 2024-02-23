@@ -10,8 +10,6 @@ Inside container:
 
 /go/bin/dlv --headless --listen=:40000 exec /go/bin/app
 
-Change .vscode/launch.json to point to remapped debugger port.
-
 Launch debugger.
 
 Profit!
