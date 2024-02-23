@@ -4,7 +4,7 @@ Includes sample web server and dlv debugger.
 
 docker image build -t go-debug .
 
-docker run -P -it go-debug (note mapped ports)
+docker run -p 8080:8080 -p 40000:40000 -it go-debug
 
 Inside container:
 
